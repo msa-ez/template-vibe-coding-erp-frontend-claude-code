@@ -297,7 +297,7 @@ export const [Aggregate]ListPage: React.FC = () => {
   return (
     <Container maxWidth="xl">
       {/* Advanced Search - Always at the top */}
-      <Paper sx={{ p: 2, mb: 2 }}>
+      <Paper sx=\{{ p: 2, mb: 2 }}>
         <AdvancedSearch
           filters={filters}
           groupBy={groupBy}
@@ -309,15 +309,15 @@ export const [Aggregate]ListPage: React.FC = () => {
       </Paper>
 
       {/* Action Bar */}
-      <Paper sx={{ p: 2, mb: 2 }}>
-        <Box sx={{ display: 'flex', gap: 1, justifyContent: 'space-between' }}>
-          <Box sx={{ display: 'flex', gap: 1 }}>
+      <Paper sx=\{{ p: 2, mb: 2 }}>
+        <Box sx=\{{ display: 'flex', gap: 1, justifyContent: 'space-between' }}>
+          <Box sx=\{{ display: 'flex', gap: 1 }}>
             {/* Command Buttons */}
             {commands.filter(c => !c.isRestRepository).map(cmd => (
               <[Command]Button key={cmd.name} selected={selected} />
             ))}
           </Box>
-          <Box sx={{ display: 'flex', gap: 1 }}>
+          <Box sx=\{{ display: 'flex', gap: 1 }}>
             <Button startIcon={<Download />} onClick={() => setShowExport(true)}>Export</Button>
             <Button startIcon={<Upload />} onClick={() => setShowImport(true)}>Import</Button>
           </Box>
