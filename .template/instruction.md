@@ -9,4 +9,4 @@ Click the **'Download archive'** icon to download the project to your local repo
 
 2. Check the Files
 
-Please refer to the `for-model/README.md` file for detailed file structure and usage instructions.
+Please refer to the `README.md` file for detailed file structure and usage instructions.
